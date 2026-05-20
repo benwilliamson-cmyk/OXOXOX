@@ -1,0 +1,58 @@
+:root {
+  --bg-deep: #0c0a0f;
+  --bg-panel: #16121c;
+  --bg-cell: #1e1826;
+  --bg-cell-hover: #2a2234;
+  --gold: #c9a227;
+  --gold-dim: #8a7020;
+  --gold-glow: rgba(201, 162, 39, 0.35);
+  --challenger: #e8d5a3;
+  --lord: #9b6bcc;
+  --text: #e8e0d4;
+  --text-muted: #9a9088;
+  --border: #3d3248;
+  --danger: #c45c5c;
+  --success: #5c9e6e;
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Crimson Pro', Georgia, serif;
+  --radius: 6px;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg-deep);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(201, 162, 39, 0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(155, 107, 204, 0.08), transparent);
+}
+
+button {
+  font-family: var(--font-display);
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
