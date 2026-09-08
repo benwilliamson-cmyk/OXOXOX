@@ -15,3 +15,9 @@ Processed after a 350-second wait. One directory at a time.
 - `tsconfig.node.json`: Strict ES2023 TypeScript config that type-checks `vite.config.ts`.
 - `vite.config.ts`: Minimal Vite config enabling the React plugin.
 
+## src
+
+- `src/App.tsx`: Campaign shell that routes title/map/briefing/battle screens and persists letter-lord progress.
+- `src/main.tsx`: React 19 entry that mounts `App` under StrictMode on `#root`.
+- `src/vite-env.d.ts`: Vite client type reference for the TypeScript app.
+
