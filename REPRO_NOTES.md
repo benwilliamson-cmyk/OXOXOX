@@ -44,6 +44,13 @@
 - `src/game/types.ts`: Shared game types for sides, actions, classic/connect/overflow/ultimate states, and validation/result shapes.
 - `src/game/ultimate.ts`: Ultimate tic-tac-toe engine for nine 3×3 boards, active-realm routing, meta-wins, and draws.
 
+## src/game/ai
+
+- `src/game/ai/lordO.ts`: Lord O boredom after two draws: flavor thinking lines plus a throwing move picker that gifts wins or the worst minimax score.
+- `src/game/ai/minimax.ts`: Alpha-beta minimax with mode-specific heuristics, legal-move conversion, and `chooseAiMove` for the lord (minimizing) side.
+- `src/game/ai/strategies.ts`: Strategy dispatcher for perfect, weak, misère-fool, connect, and bored-Lord-O move selection.
+
+
 
 
 
