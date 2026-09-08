@@ -35,5 +35,15 @@
 - `src/components/TitleScreen.tsx`: Kingdom of Lexica title screen with continue/new-game or first-enter actions based on saved progress.
 - `src/components/UltimateGrid.tsx`: Nine-board ultimate tic-tac-toe grid highlighting legal cells and won/active mini-boards.
 
+## src/game
+
+- `src/game/classic.ts`: Classic-grid rules: create/legal/validate/apply/evaluate with blocked cells, crown doubles, misère, and bonus opening placements.
+- `src/game/connect.ts`: 7×6 Connect Four engine with gravity drops, four-in-a-row checks from the last drop, and draw-when-full.
+- `src/game/engine.ts`: Mode-agnostic clone, legal-move, validate, apply, and human-turn helpers dispatching by game kind.
+- `src/game/overflow.ts`: 5×5 FIFO overflow mode that keeps at most three marks per side and reuses classic four-in-a-row evaluation.
+- `src/game/types.ts`: Shared game types for sides, actions, classic/connect/overflow/ultimate states, and validation/result shapes.
+- `src/game/ultimate.ts`: Ultimate tic-tac-toe engine for nine 3×3 boards, active-realm routing, meta-wins, and draws.
+
+
 
 
