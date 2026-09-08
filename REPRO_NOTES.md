@@ -14,3 +14,14 @@ Processed after a 350s wait. One-line summary per file, directory by directory.
 - `tsconfig.app.json`: Strict ES2022/DOM/React-JSX compiler options for the `src` tree.
 - `tsconfig.node.json`: Strict ES2023 compiler options scoped to `vite.config.ts`.
 - `vite.config.ts`: Vite config enabling the official React plugin.
+
+## /src
+
+- `src/App.tsx`: Campaign shell that routes title, throne map, briefing, and battle screens and persists progress/outcomes.
+- `src/main.tsx`: React 19 entry point that mounts `App` under StrictMode into `#root`.
+- `src/vite-env.d.ts`: Triple-slash reference that pulls in Vite client type definitions.
+
+## /src/campaign
+
+- `src/campaign/letters.ts`: Defines campaign letter IDs, AI strategies, and the LETTER_REGISTRY for lords O, A, B, E, L, M, U, and K.
+- `src/campaign/progress.ts`: Loads and saves campaign progress in localStorage, including unlocks, victories, and Lord O draw boredom.
