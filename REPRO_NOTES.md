@@ -44,3 +44,9 @@
 - `src/game/types.ts`: Shared types for sides, actions, classic/connect/overflow/ultimate state, and game results.
 - `src/game/ultimate.ts`: Ultimate tic-tac-toe: nine boards, active-realm routing, meta-win, and legal-move generation.
 
+## /src/game/ai
+
+- `src/game/ai/lordO.ts`: Lord O boredom threshold, flavor thinking lines, and deliberate throwing-move selection.
+- `src/game/ai/minimax.ts`: Alpha-beta minimax, heuristics, action conversion, and best-move selection for the AI.
+- `src/game/ai/strategies.ts`: Per-lord AI dispatch: perfect, weak blunders, misère-fool, connect, and bored Lord O.
+
