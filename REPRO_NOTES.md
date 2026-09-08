@@ -50,6 +50,11 @@
 - `src/game/ai/minimax.ts`: Alpha-beta minimax with mode-specific heuristics, legal-move conversion, and `chooseAiMove` for the lord (minimizing) side.
 - `src/game/ai/strategies.ts`: Strategy dispatcher for perfect, weak, misère-fool, connect, and bored-Lord-O move selection.
 
+## src/hooks
+
+- `src/hooks/useBattle.ts`: Battle hook that reduces human/AI moves, delays lord turns, and surfaces illegal-move errors plus bored-Lord-O thinking lines.
+
+
 
 
 
