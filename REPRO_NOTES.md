@@ -49,3 +49,7 @@
 - `src/game/ai/lordO.ts`: Lord O boredom logic that throws after two draws using gift moves and flavor thinking lines.
 - `src/game/ai/minimax.ts`: Alpha-beta minimax search with heuristics, move ordering, and AI action selection.
 - `src/game/ai/strategies.ts`: Per-lord AI strategies: perfect, weak blunders, misère-fool, connect, and bored Lord O.
+
+## src/hooks
+
+- `src/hooks/useBattle.ts`: Battle hook that applies human moves, delays lord AI turns, and surfaces thinking/error state.
