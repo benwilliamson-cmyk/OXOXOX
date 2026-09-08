@@ -53,3 +53,8 @@
 ## src/hooks
 
 - `src/hooks/useBattle.ts`: Battle hook that applies human moves, delays lord AI turns, and surfaces thinking/error state.
+
+## src/styles
+
+- `src/styles/app.css`: Component styles for title, throne map, briefing, battle grids, overlays, and Connect Four UI.
+- `src/styles/tokens.css`: Design tokens and global reset for the dark gold/purple Kingdom of Lexica theme.
