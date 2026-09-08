@@ -75,3 +75,12 @@ Generated after listing every tracked file and reading each directory in turn.
 - `src/components/TitleScreen.tsx`: Title menu that starts a new campaign or continues saved progress.
 - `src/components/UltimateGrid.tsx`: Nine-board ultimate tic-tac-toe grid highlighting legal cells and active realms.
 
+## src/game
+
+- `src/game/classic.ts`: Classic NxN rules: legal cells, win/misère/draw evaluation, bonus opening placements, and apply/validate.
+- `src/game/connect.ts`: 7×6 connect-four engine with gravity drops, four-in-a-row checks, and column validation.
+- `src/game/engine.ts`: Mode dispatcher that clones, lists legal moves, validates, and applies actions across all game kinds.
+- `src/game/overflow.ts`: 5×5 FIFO overflow mode that evicts a side's oldest mark after three and reuses classic win checks.
+- `src/game/types.ts`: Shared sides, actions, validation results, and Classic/Connect/Overflow/Ultimate state types.
+- `src/game/ultimate.ts`: Ultimate tic-tac-toe logic for nine boards, forced active realms, and meta-board winners.
+
