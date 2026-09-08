@@ -23,3 +23,14 @@
 
 - `src/campaign/letters.ts`: Campaign letter registry defining lords O/A/B/E/L/M/U/K, rules, AI strategy, and state factories.
 - `src/campaign/progress.ts`: localStorage campaign progress for unlocks, victories, and Lord O boredom draws.
+
+## src/components
+
+- `src/components/BattleBriefing.tsx`: Pre-battle briefing UI showing a lord's title, decree, rules, and begin/back actions.
+- `src/components/BattleView.tsx`: Active battle screen that routes classic/connect/ultimate grids and reports outcomes.
+- `src/components/ClassicGrid.tsx`: Clickable n×n grid for classic and overflow modes, including blocked and oldest cells.
+- `src/components/ConnectGrid.tsx`: Connect Four column-drop grid with per-column drop buttons and gravity cells.
+- `src/components/OutcomeOverlay.tsx`: Modal overlay for win, loss, and draw with Lord O-specific copy and retry/continue.
+- `src/components/ThroneMap.tsx`: Campaign map of unlocked, current, defeated, and locked letter thrones.
+- `src/components/TitleScreen.tsx`: Title screen with new-game and continue-campaign entry points.
+- `src/components/UltimateGrid.tsx`: Ultimate tic-tac-toe UI of nine mini-boards highlighting legal active realms.
