@@ -12,3 +12,9 @@
 - `tsconfig.json`: Solution-style tsconfig that references the app and node configs.
 - `tsconfig.node.json`: Strict TypeScript config used only for `vite.config.ts`.
 - `vite.config.ts`: Vite config that enables the React plugin.
+
+## src
+
+- `src/App.tsx`: Root screen router for title, throne map, briefing, and battle, plus campaign progress and outcomes.
+- `src/main.tsx`: React 19 entry that mounts `App` under StrictMode on `#root`.
+- `src/vite-env.d.ts`: Vite client type reference for the TypeScript app.
