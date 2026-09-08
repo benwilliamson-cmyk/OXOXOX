@@ -34,3 +34,12 @@
 - `src/components/ThroneMap.tsx`: Campaign map of unlockable letter thrones plus locked leftover alphabet letters.
 - `src/components/TitleScreen.tsx`: Title screen with continue/new-game or first-entry buttons for Kingdom of Lexica.
 - `src/components/UltimateGrid.tsx`: Nine-board ultimate tic-tac-toe grid highlighting legal/active sub-boards.
+
+## src/game
+
+- `src/game/classic.ts`: Classic NxN engine with blocked cells, misère, bonus placements, legal moves, and win evaluation.
+- `src/game/connect.ts`: 7x6 Connect Four engine with gravity drops, column legality, and four-in-a-row checks.
+- `src/game/engine.ts`: Unified clone/legal-move/validate/apply dispatcher across classic, connect, overflow, and ultimate.
+- `src/game/overflow.ts`: 5x5 FIFO overflow mode that removes a side's oldest mark after three stones.
+- `src/game/types.ts`: Shared TypeScript types for sides, actions, and classic/connect/overflow/ultimate game states.
+- `src/game/ultimate.ts`: Ultimate tic-tac-toe rules for nine boards, active-board routing, and meta-win detection.
