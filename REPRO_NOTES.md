@@ -18,3 +18,8 @@
 - `src/App.tsx`: Root screen router for title, throne map, briefing, and battle, plus campaign progress and outcomes.
 - `src/main.tsx`: React 19 entry that mounts `App` under StrictMode on `#root`.
 - `src/vite-env.d.ts`: Vite client type reference for the TypeScript app.
+
+## src/campaign
+
+- `src/campaign/letters.ts`: Campaign letter registry defining lords O/A/B/E/L/M/U/K, rules, AI strategy, and state factories.
+- `src/campaign/progress.ts`: localStorage campaign progress for unlocks, victories, and Lord O boredom draws.
