@@ -54,3 +54,8 @@
 
 - `src/hooks/useBattle.ts`: Battle hook that applies human moves, delays lord AI turns, and exposes thinking/error state.
 
+## /src/styles
+
+- `src/styles/app.css`: Layout and component styles for title, throne map, briefing, battle grids, overlay, and connect UI.
+- `src/styles/tokens.css`: Design tokens, global body/font reset, and reduced-motion overrides for the kingdom theme.
+
