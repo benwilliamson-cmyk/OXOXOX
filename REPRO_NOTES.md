@@ -53,3 +53,9 @@ Generated after listing every tracked file and reading each directory in turn.
 - `tsconfig.node.json`: Strict ES2023 compiler options scoped to `vite.config.ts`.
 - `vite.config.ts`: Vite config that enables the official React plugin.
 
+## src
+
+- `src/App.tsx`: Top-level campaign router that loads/saves progress and switches among title, throne map, briefing, battle, and outcome overlay.
+- `src/main.tsx`: React 19 entry that mounts `App` under StrictMode on `#root`.
+- `src/vite-env.d.ts`: Triple-slash reference that pulls in Vite client TypeScript types.
+
