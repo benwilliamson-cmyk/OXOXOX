@@ -52,6 +52,11 @@ Processed after a 350s wait. One-line summaries by directory.
 - `src/game/ai/minimax.ts`: Alpha-beta minimax with heuristics, action conversion, and `chooseAiMove` for lord-minimizing play.
 - `src/game/ai/strategies.ts`: Routes lord AI among perfect, weak, misère-fool, connect, and bored-Lord-O throwing strategies.
 
+## src/hooks
+
+- `src/hooks/useBattle.ts`: Battle hook that applies human moves, delays lord AI, and exposes thinking lines plus rematch reset.
+
+
 
 
 
