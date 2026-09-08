@@ -13,3 +13,9 @@
 - `tsconfig.node.json`: Strict TypeScript config used only for `vite.config.ts` (ES2023).
 - `vite.config.ts`: Minimal Vite config enabling the official React plugin.
 
+## /src
+
+- `src/App.tsx`: Top-level campaign UI state machine for title, map, briefing, battle, and outcome overlay.
+- `src/main.tsx`: React 19 entry that mounts `App` into `#root` under StrictMode.
+- `src/vite-env.d.ts`: Triple-slash reference so TypeScript picks up Vite client types.
+
