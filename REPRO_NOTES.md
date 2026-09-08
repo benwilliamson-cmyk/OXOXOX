@@ -82,3 +82,18 @@ Listed every file in the repository (excluding `.git` internals):
 - `src/game/types.ts`: Shared Side/Cell/GameState unions and action/validation types for all modes.
 - `src/game/ultimate.ts`: Ultimate tic-tac-toe: nine boards, active-realm routing, and meta-board winners.
 
+## src/game/ai/
+
+- `src/game/ai/lordO.ts`: Lord O boredom threshold, throwaway-move picker, and doodling thinking lines after two draws.
+- `src/game/ai/minimax.ts`: Alpha-beta minimax with mode heuristics and `chooseAiMove` for lord-minimizing play.
+- `src/game/ai/strategies.ts`: Per-lord AI dispatch (perfect, weak blunders, misère-fool, connect, bored Lord O).
+
+## src/hooks/
+
+- `src/hooks/useBattle.ts`: Battle reducer hook that applies human moves and schedules delayed lord AI turns.
+
+## src/styles/
+
+- `src/styles/app.css`: Layout and component styles for title, throne map, briefing, grids, overlays, and battle chrome.
+- `src/styles/tokens.css`: Design tokens (gold/purple palette, Cinzel/Crimson fonts) plus global body and reduced-motion resets.
+
