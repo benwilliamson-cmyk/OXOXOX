@@ -15,3 +15,10 @@ Processed after a 350s wait. One-line summaries by directory.
 - `tsconfig.node.json`: Strict ES2023 TypeScript config used only for `vite.config.ts`.
 - `vite.config.ts`: Vite config enabling the official React plugin.
 
+## src
+
+- `src/App.tsx`: Root React app that routes title/map/briefing/battle screens and persists campaign progress plus Lord O draws.
+- `src/main.tsx`: React 19 entry that mounts `App` under StrictMode on `#root`.
+- `src/vite-env.d.ts`: Vite client type reference for the TypeScript app.
+
+
