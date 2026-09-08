@@ -26,3 +26,14 @@ Processed after a 350-second wait. One directory at a time.
 - `src/campaign/letters.ts`: Registry of letter-lords (O, A, B, E, L, M, U, K) with decrees, rules, AI strategy, and game factories.
 - `src/campaign/progress.ts`: localStorage campaign progress for defeated letters, unlocks, and Lord O draw boredom.
 
+## src/components
+
+- `src/components/BattleBriefing.tsx`: Pre-battle screen showing a lord's title, decree, rules, and begin/back actions.
+- `src/components/BattleView.tsx`: Active battle UI that picks the grid, reports outcomes, and shows Lord O boredom hints.
+- `src/components/ClassicGrid.tsx`: Square-grid renderer for classic/overflow modes with blocked cells and oldest-mark styling.
+- `src/components/ConnectGrid.tsx`: Column-drop board UI for Lord A's 7×6 connect-style battle.
+- `src/components/OutcomeOverlay.tsx`: Modal for win/loss/draw with Lord O-specific copy and retry/map actions.
+- `src/components/ThroneMap.tsx`: Campaign path of unlockable letter thrones plus locked leftover alphabet letters.
+- `src/components/TitleScreen.tsx`: Title screen with new-game and continue buttons for Kingdom of Lexica.
+- `src/components/UltimateGrid.tsx`: Nine-board ultimate tic-tac-toe grid highlighting legal/active realms.
+
