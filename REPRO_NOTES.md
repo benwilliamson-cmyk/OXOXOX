@@ -12,6 +12,7 @@
 - `tsconfig.json`: Solution-style tsconfig that references app and node project configs.
 - `tsconfig.node.json`: Strict TypeScript config used only for `vite.config.ts` (ES2023, noEmit).
 - `vite.config.ts`: Vite config enabling the React plugin with default settings.
+- `REPRO_NOTES.md`: One-line summaries of every repository file, grouped by directory.
 
 ## src
 
