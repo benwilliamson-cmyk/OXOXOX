@@ -10,6 +10,7 @@ Generated after listing every tracked file and reading each directory in turn.
 - `index.html`
 - `package-lock.json`
 - `package.json`
+- `REPRO_NOTES.md`
 - `src/App.tsx`
 - `src/campaign/letters.ts`
 - `src/campaign/progress.ts`
@@ -48,6 +49,7 @@ Generated after listing every tracked file and reading each directory in turn.
 - `index.html`: Vite HTML shell titled Kingdom of Lexica that loads Cinzel/Crimson Pro fonts and mounts `/src/main.tsx`.
 - `package-lock.json`: npm lockfileVersion 3 pin of React 19, Vite 6, TypeScript 5.8, and related transitive deps.
 - `package.json`: Private `onboarding-crosses` 0.1.0 package with Vite/TypeScript scripts and React 19 dependencies.
+- `REPRO_NOTES.md`: This notes file — one-line summaries of every tracked repository file, written directory by directory.
 - `tsconfig.json`: Solution-style TypeScript config that references the app and node project configs.
 - `tsconfig.app.json`: Strict ES2022 + React JSX compiler options scoped to the `src` tree.
 - `tsconfig.node.json`: Strict ES2023 compiler options scoped to `vite.config.ts`.
@@ -83,4 +85,19 @@ Generated after listing every tracked file and reading each directory in turn.
 - `src/game/overflow.ts`: 5×5 FIFO overflow mode that evicts a side's oldest mark after three and reuses classic win checks.
 - `src/game/types.ts`: Shared sides, actions, validation results, and Classic/Connect/Overflow/Ultimate state types.
 - `src/game/ultimate.ts`: Ultimate tic-tac-toe logic for nine boards, forced active realms, and meta-board winners.
+
+## src/game/ai
+
+- `src/game/ai/lordO.ts`: Lord O boredom threshold, flavor thinking lines, and a throwing-move picker that gifts wins after two draws.
+- `src/game/ai/minimax.ts`: Alpha-beta minimax, legal-action conversion, heuristics, and best-move selection for the lord.
+- `src/game/ai/strategies.ts`: Routes each letter to perfect, weak, misère-fool, connect, or bored-Lord-O move selection.
+
+## src/hooks
+
+- `src/hooks/useBattle.ts`: Battle reducer hook that applies human moves and schedules delayed AI replies with optional Lord O flavor.
+
+## src/styles
+
+- `src/styles/app.css`: Layout and component styles for title, map, briefing, grids, connect columns, overlay, and banners.
+- `src/styles/tokens.css`: Design tokens and global body styles (gold/purple palette, Cinzel/Crimson Pro, reduced-motion).
 
