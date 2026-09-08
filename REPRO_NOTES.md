@@ -54,6 +54,12 @@
 
 - `src/hooks/useBattle.ts`: Battle hook that reduces human/AI moves, delays lord turns, and surfaces illegal-move errors plus bored-Lord-O thinking lines.
 
+## src/styles
+
+- `src/styles/app.css`: Layout and component styles for title, throne map, briefing, battle grids, connect columns, overlays, and campaign chrome.
+- `src/styles/tokens.css`: Design tokens (gold/lord/challenger palette, Cinzel/Crimson Pro fonts) plus global body reset and reduced-motion rules.
+
+
 
 
 
