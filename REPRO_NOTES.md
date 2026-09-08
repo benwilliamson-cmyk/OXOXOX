@@ -56,6 +56,12 @@ Processed after a 350s wait. One-line summaries by directory.
 
 - `src/hooks/useBattle.ts`: Battle hook that applies human moves, delays lord AI, and exposes thinking lines plus rematch reset.
 
+## src/styles
+
+- `src/styles/app.css`: Layout and component styles for title, throne map, briefing, battle grids, connect columns, and overlays.
+- `src/styles/tokens.css`: Theme tokens, global typography, deep-gold background, and reduced-motion rules.
+
+
 
 
 
