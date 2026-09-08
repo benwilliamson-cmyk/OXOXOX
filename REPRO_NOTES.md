@@ -56,3 +56,8 @@ Processed after a 350-second wait. One directory at a time.
 
 - `src/hooks/useBattle.ts`: Battle hook that applies human moves and schedules delayed lord AI replies.
 
+## src/styles
+
+- `src/styles/app.css`: Layout and component styles for title, thrones, briefing, grids, overlays, and connect columns.
+- `src/styles/tokens.css`: Theme tokens, global typography, dark royal background, and reduced-motion rules.
+
