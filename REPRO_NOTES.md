@@ -43,3 +43,9 @@
 - `src/game/overflow.ts`: 5x5 FIFO overflow mode that removes a side's oldest mark after three stones.
 - `src/game/types.ts`: Shared TypeScript types for sides, actions, and classic/connect/overflow/ultimate game states.
 - `src/game/ultimate.ts`: Ultimate tic-tac-toe rules for nine boards, active-board routing, and meta-win detection.
+
+## src/game/ai
+
+- `src/game/ai/lordO.ts`: Lord O boredom logic that throws after two draws using gift moves and flavor thinking lines.
+- `src/game/ai/minimax.ts`: Alpha-beta minimax search with heuristics, move ordering, and AI action selection.
+- `src/game/ai/strategies.ts`: Per-lord AI strategies: perfect, weak blunders, misère-fool, connect, and bored Lord O.
