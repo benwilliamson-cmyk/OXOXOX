@@ -49,3 +49,12 @@
 - `src/game/ai/lordO.ts`: Lord O boredom threshold and throwing-move picker that gifts wins after two draws.
 - `src/game/ai/minimax.ts`: Alpha-beta minimax, heuristics, and best-move selection for classic, overflow, and connect.
 - `src/game/ai/strategies.ts`: Lord move dispatcher for perfect, weak, misère-fool, connect, and bored-Lord-O play.
+
+## src/hooks
+
+- `src/hooks/useBattle.ts`: Battle hook that applies human moves, delays AI turns, and tracks Lord O thinking lines.
+
+## src/styles
+
+- `src/styles/app.css`: Layout and component styles for title, throne map, briefing, grids, overlay, and connect UI.
+- `src/styles/tokens.css`: CSS custom properties, base body/font reset, and reduced-motion rules for the royal theme.
