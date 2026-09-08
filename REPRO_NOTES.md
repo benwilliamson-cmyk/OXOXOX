@@ -19,3 +19,9 @@
 - `src/main.tsx`: React 19 entry that mounts `App` under StrictMode on `#root`.
 - `src/vite-env.d.ts`: Triple-slash reference that pulls in Vite client type declarations.
 
+## src/campaign
+
+- `src/campaign/letters.ts`: Defines LetterId, AI strategies, CAMPAIGN_ORDER, and LETTER_REGISTRY for lords O/A/B/E/L/M/U/K plus helpers to look up and unlock the next letter.
+- `src/campaign/progress.ts`: Loads and saves campaign progress in localStorage (`lexica-campaign-v1`), tracking defeats, unlocks, and Lord O draw boredom.
+
+
