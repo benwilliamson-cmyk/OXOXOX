@@ -21,3 +21,8 @@ Processed after a 350-second wait. One directory at a time.
 - `src/main.tsx`: React 19 entry that mounts `App` under StrictMode on `#root`.
 - `src/vite-env.d.ts`: Vite client type reference for the TypeScript app.
 
+## src/campaign
+
+- `src/campaign/letters.ts`: Registry of letter-lords (O, A, B, E, L, M, U, K) with decrees, rules, AI strategy, and game factories.
+- `src/campaign/progress.ts`: localStorage campaign progress for defeated letters, unlocks, and Lord O draw boredom.
+
