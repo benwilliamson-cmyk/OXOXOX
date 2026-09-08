@@ -46,3 +46,9 @@ Processed after a 350-second wait. One directory at a time.
 - `src/game/types.ts`: Shared Side/Cell/status types and state shapes for classic, connect, overflow, and ultimate.
 - `src/game/ultimate.ts`: Ultimate tic-tac-toe with nine boards, active-realm routing, and meta-win detection.
 
+## src/game/ai
+
+- `src/game/ai/lordO.ts`: Lord O boredom threshold and throwing-move logic that gifts wins after two draws.
+- `src/game/ai/minimax.ts`: Alpha-beta minimax, heuristics, and legal-move conversion for lord AI.
+- `src/game/ai/strategies.ts`: Strategy router for perfect, weak, misère-fool, connect, and bored Lord O play.
+
