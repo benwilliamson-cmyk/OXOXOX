@@ -50,3 +50,7 @@
 - `src/game/ai/minimax.ts`: Alpha-beta minimax, heuristics, action conversion, and best-move selection for the AI.
 - `src/game/ai/strategies.ts`: Per-lord AI dispatch: perfect, weak blunders, misère-fool, connect, and bored Lord O.
 
+## /src/hooks
+
+- `src/hooks/useBattle.ts`: Battle hook that applies human moves, delays lord AI turns, and exposes thinking/error state.
+
