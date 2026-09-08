@@ -18,3 +18,8 @@
 - `src/App.tsx`: Root React app that routes title/map/briefing/battle screens and persists campaign progress.
 - `src/main.tsx`: React 19 entry point that mounts `App` under StrictMode into `#root`.
 - `src/vite-env.d.ts`: Triple-slash reference that pulls in Vite client TypeScript types.
+
+## src/campaign
+
+- `src/campaign/letters.ts`: Campaign letter registry defining lords O/A/B/E/L/M/U/K with rules, AI strategy, and state factories.
+- `src/campaign/progress.ts`: localStorage campaign progress helpers for unlocks, victories, reset, and Lord O draw boredom.
