@@ -52,3 +52,7 @@ Processed after a 350-second wait. One directory at a time.
 - `src/game/ai/minimax.ts`: Alpha-beta minimax, heuristics, and legal-move conversion for lord AI.
 - `src/game/ai/strategies.ts`: Strategy router for perfect, weak, misère-fool, connect, and bored Lord O play.
 
+## src/hooks
+
+- `src/hooks/useBattle.ts`: Battle hook that applies human moves and schedules delayed lord AI replies.
+
