@@ -57,3 +57,8 @@ Listed every file in the repository (excluding `.git` internals):
 - `src/main.tsx`: React 19 entry that mounts `App` in StrictMode on `#root`.
 - `src/vite-env.d.ts`: Triple-slash reference so TypeScript picks up Vite client types.
 
+## src/campaign/
+
+- `src/campaign/letters.ts`: Campaign letter registry for lords O/A/B/E/L/M/U/K with rules, AI strategy, and state factories.
+- `src/campaign/progress.ts`: localStorage campaign progress (defeated lords, unlocks, Lord O draws) plus victory/reset helpers.
+
