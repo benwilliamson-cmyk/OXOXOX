@@ -34,3 +34,18 @@
 - `src/components/ThroneMap.tsx`: Campaign map of unlocked, current, defeated, and locked letter thrones.
 - `src/components/TitleScreen.tsx`: Title screen with new-game and continue-campaign entry points.
 - `src/components/UltimateGrid.tsx`: Ultimate tic-tac-toe UI of nine mini-boards highlighting legal active realms.
+
+## src/game
+
+- `src/game/classic.ts`: Classic n×n rules: legal moves, win/misère evaluation, bonus placements, and apply/validate.
+- `src/game/connect.ts`: Connect Four 7×6 gravity drops, column legality, and four-in-a-row evaluation.
+- `src/game/engine.ts`: Shared game engine that clones, lists, validates, and applies actions across all modes.
+- `src/game/overflow.ts`: FIFO overflow mode (5×5, max 3 marks) that expires the oldest mark on a fourth place.
+- `src/game/types.ts`: Shared types for sides, actions, and classic/connect/overflow/ultimate game states.
+- `src/game/ultimate.ts`: Ultimate tic-tac-toe: nine boards, active-realm routing, sub-board and meta winners.
+
+## src/game/ai
+
+- `src/game/ai/lordO.ts`: Lord O boredom threshold and throwing-move picker that gifts wins after two draws.
+- `src/game/ai/minimax.ts`: Alpha-beta minimax, heuristics, and best-move selection for classic, overflow, and connect.
+- `src/game/ai/strategies.ts`: Lord move dispatcher for perfect, weak, misère-fool, connect, and bored-Lord-O play.
