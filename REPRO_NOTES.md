@@ -12,3 +12,9 @@
 - `tsconfig.json`: Solution-style tsconfig that references app and node project configs.
 - `tsconfig.node.json`: Strict TypeScript config used only for `vite.config.ts` (ES2023, noEmit).
 - `vite.config.ts`: Vite config enabling the React plugin with default settings.
+
+## src
+
+- `src/App.tsx`: Root React app that routes title/map/briefing/battle screens and persists campaign progress.
+- `src/main.tsx`: React 19 entry point that mounts `App` under StrictMode into `#root`.
+- `src/vite-env.d.ts`: Triple-slash reference that pulls in Vite client TypeScript types.
