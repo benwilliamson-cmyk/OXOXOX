@@ -62,9 +62,3 @@ Processed after a 350s wait. One-line summaries by directory.
 - `src/styles/tokens.css`: Theme tokens, global typography, deep-gold background, and reduced-motion rules.
 
 
-
-
-
-
-
-
